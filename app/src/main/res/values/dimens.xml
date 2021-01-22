@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_with_16">16dp</dimen>
+    <dimen name="margin_with_24">24dp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="margin_with_55">55dp</dimen>
+    <dimen name="margin_with_8">8dp</dimen>
+    <dimen name="margin_with_45">45dp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="margin_with_6">6dp</dimen>
+    <dimen name="margin_with_18">18dp</dimen>
+    <dimen name="margin_with_10">10dp</dimen>
+    <dimen name="margin_with_40">40dp</dimen>
+    <dimen name="margin_with_12">12dp</dimen>
+    <dimen name="margin_with_20">20dp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="margin_with_4">4dp</dimen>
+</resources>

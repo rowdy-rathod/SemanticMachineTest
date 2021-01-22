@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:letterSpacing="0.06"
+        android:lineSpacingExtra="9sp"
+        android:text="@string/enter_verification_code_label"
+        android:textColor="@color/color_333333"
+        android:textSize="@dimen/text_size_18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mTextViewMobileNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_with_16"
+        android:layout_marginTop="@dimen/margin_with_8"
+        android:layout_marginRight="@dimen/margin_with_16"
+        android:gravity="center_horizontal"
+        android:letterSpacing="0.06"
+        android:lineSpacingExtra="7sp"
+        android:text="@string/sending_otp_message"
+        android:textColor="@color/color_333333"
+        android:textSize="@dimen/text_size_14"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <com.goodiebag.pinview.Pinview
+        android:id="@+id/pinView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_with_16"
+        android:layout_marginTop="@dimen/margin_with_24"
+        android:layout_marginRight="@dimen/margin_with_16"
+        app:cursorVisible="false"
+        app:forceKeyboard="false"
+        app:hint=""
+        app:inputType="number"
+        app:pinBackground="@drawable/box_selected_bg"
+        app:pinHeight="40dp"
+        app:pinWidth="40dp" />
+
+    <TextView
+        android:id="@+id/mButtonVerifyNow"
+        android:layout_width="140dp"
+        android:layout_height="@dimen/margin_with_45"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_with_24"
+        android:background="@drawable/button_bg"
+        android:gravity="center"
+        android:text="@string/verification_now"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_14" />
+
+    <TextView
+        android:id="@+id/mTextViewCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_with_40"
+        android:gravity="center"
+        android:letterSpacing="0.06"
+        android:lineSpacingExtra="9sp"
+        android:text="@string/enter_verification_code_label"
+        android:textColor="@color/color_333333"
+        android:textSize="@dimen/text_size_18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mTextViewResend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_with_24"
+        android:gravity="center"
+        android:letterSpacing="0.06"
+        android:lineSpacingExtra="9sp"
+        android:text="@string/resend"
+        android:textColor="@color/color_333333"
+        android:textSize="@dimen/text_size_18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</LinearLayout>
